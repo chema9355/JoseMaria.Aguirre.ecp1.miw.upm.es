@@ -1,24 +1,20 @@
-	
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-public class C11Test {
+public class C12Test {
+	private C12 c12;
 	
-	private C11 c11;
 	    @Before
 	    public void before() {
-	        c11 = new C11();
+	        c12 = new C12();
 	    }
 
 	    @Test
 	    public void testm1() {
-	        assertEquals("m1", c11.m1());
+	        assertEquals("mA", c12.mA());
 	    }
 	    
-	    @Test
-	    public void testm2() {
-	        assertEquals("m2", c11.m2());
-	    }
+	   
 }
